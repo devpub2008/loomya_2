@@ -126,23 +126,6 @@ trans('Food is good',{'food':'cacao cu lapte']})
 Food is good
 ````
 #### Benchmarks & Performance
- 
-Tested on a dual core, $10 Digital ocean droplet, running nginx wiht php-fpm and PHP74, which tends to throttle CPU usage we got the following results:
 
-- Avg Max concurent request: ~240rps
-- Avg Load time: ~0.5s
-- Total bundle overhead (Gzipped): ~241KB
 
-_Wrk Benchmark tool sample_
-![alt text](https://i.imgur.com/gZ3o7eP.png)
 
-_Google Lighthouse/Page Insights report sample_
-![alt text](https://i.imgur.com/mFXY8Zb.png)
-
-#### Questions?
-
-Send us a message over http://qdev.tech .
-
-<hr>
-
-Qdev Techs SRL - All rights reserved.
